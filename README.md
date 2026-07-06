@@ -1,6 +1,6 @@
-# Ejercicios
+# Ejercicios Independientes:
 ---
-Aquí comparto algunos ejercicios de práctica:
+Aquí comparto algunos ejercicios de mi autoría y que sirven de práctica:
 1. Cáculadora
 2. Cáculadora con menú
 3. Programa de conversión de temperatura
