@@ -1,0 +1,22 @@
+def ULAM():
+
+    n = int(input("Introduce un número entero positivo mayor que 0: "))
+
+    # Validación de entrada
+    if n <= 0:
+        print("Error: El número debe ser un entero positivo.")
+    else:
+        print("La secuencia es:")
+        print(n)
+
+        while n > 1:
+            if n % 2 == 0:
+                n = n // 2   # división entera
+            else:
+                n = 3 * n + 1
+            print(n)
+
+        print("Fin de la secuencia. ¡Se cumple la conjetura!")
+
+# Ejecutar
+ULAM()
